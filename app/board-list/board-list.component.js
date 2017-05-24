@@ -2,7 +2,7 @@
 
 // Register `boardList` component, along with its associated controller and template
 angular.module('boardList').component('boardList', {
-    templateUrl: '/board-list/board-list.template.html',
+    templateUrl: 'board-list/board-list.template.html',
     controller: ['$http', function BoardListController($http) {
         var self = this;
 

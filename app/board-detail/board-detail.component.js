@@ -2,7 +2,7 @@
 
 // Register `boardDetail` component, along with its associated controller and template
 angular.module('boardDetail').component('boardDetail', {
-    templateUrl: '/board-detail/board-detail.template.html',
+    templateUrl: 'board-detail/board-detail.template.html',
     controller: ['$http', '$routeParams',
         function BoardDetailController($http, $routeParams) {
 
